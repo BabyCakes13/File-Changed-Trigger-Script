@@ -19,7 +19,7 @@ This will trigger ifnotifywait to monitor the specific file, and when it is save
 I'm actually using the script now to get a live update on modifying README.md! 
 
 ```console
-./watch_vim.sh . README.md
+./watch.sh . README.md
 ```
 
 ### Why did I use monitoring on directory rather than the targeted file directly?
